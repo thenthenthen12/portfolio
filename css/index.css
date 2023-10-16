@@ -1733,6 +1733,12 @@ p {
     transition: 0.5s;
     position: relative;
 }
+.slide--2 .col--2 .imglist a:hover span{
+    opacity: 0;
+}
+.slide--2 .col--2 .imglist a:hover::after{
+    opacity: 0;
+}
 .slide--2 .col--2 .imglist a span{
     display: block;
     position: absolute;
@@ -1742,9 +1748,10 @@ p {
     text-align: center;
     z-index: 6;
     height: 100%;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     font-weight: 500;
+    transition: 0.5s;
     
 }
 .slide--2 .col--2 .imglist a::after{
@@ -1757,6 +1764,8 @@ p {
     height: 100%;
     border-right: 2px solid #fff;
     box-sizing: border-box;
+    transition: 0.5s;
+
 }
 .slide--2 .col--2 .imglist a img{
     width: 100%;
@@ -1859,14 +1868,17 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .slide--3 .col--2 .info .link a{
     border: 2px solid #154733;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--3 .col--2 .info .link a span{
     position: relative;
@@ -1916,6 +1928,8 @@ p {
     transform: translateY(10vw);
     opacity: 0;
     transition: 1s;
+    word-break: keep-all;
+    font-size: 20px;
 }
 .slide.on1 .col--1 .col__content-txt{
     transform: translateY(0);
@@ -1955,15 +1969,19 @@ p {
 }
 .slide--4 .col--2 .info .link{
     display: flex;
-    align-items: center;
+    height: auto;
+    align-items: flex-end;
     justify-content: center;
 }
 .slide--4 .col--2 .info .link a{
     border: 2px solid #333;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--4 .col--2 .info .link a span{
     position: relative;
@@ -2043,15 +2061,19 @@ p {
 }
 .slide--5 .col--2 .info .link{
     display: flex;
-    align-items: center;
+    height: auto;
+    align-items: flex-end;
     justify-content: center;
 }
 .slide--5 .col--2 .info .link a{
     border: 2px solid #dad7e0;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--5 .col--2 .info .link a span{
     position: relative;
@@ -2133,16 +2155,17 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .slide--6 .col--2 .info .link a{
     border: 2px solid #502914;
-    display: block;
+    display: flex;
     width: 150px;
-    text-align: center;
     padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--6 .col--2 .info .link a span{
     position: relative;
@@ -2219,15 +2242,19 @@ p {
 }
 .slide--7 .col--2 .info .link{
     display: flex;
-    align-items: center;
+    height: auto;
+    align-items: flex-end;
     justify-content: center;
 }
 .slide--7 .col--2 .info .link a{
     border: 2px solid #fdee0a;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--7 .col--2 .info .link a span{
     position: relative;
@@ -2301,15 +2328,19 @@ p {
 }
 .slide--8 .col--2 .info .link{
     display: flex;
-    align-items: center;
+    height: auto;
+    align-items: flex-end;
     justify-content: center;
 }
 .slide--8 .col--2 .info .link a{
     border: 2px solid #FFC0C0;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--8 .col--2 .info .link a span{
     position: relative;
@@ -2386,15 +2417,19 @@ p {
 }
 .slide--9 .col--2 .info .link{
     display: flex;
-    align-items: center;
+    height: auto;
+    align-items: flex-end;
     justify-content: center;
 }
 .slide--9 .col--2 .info .link a{
     border: 2px solid #1a3e82;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--9 .col--2 .info .link a span{
     position: relative;
@@ -2474,16 +2509,17 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .slide--10 .col--2 .info .link a{
     border: 2px solid #D90166;
-    display: block;
+    display: flex;
     width: 150px;
     padding: 10px 0;
     position: relative;
     transition: 0.5s;
-    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--10 .col--2 .info .link a span{
     position: relative;
@@ -2563,15 +2599,19 @@ p {
 }
 .slide--11 .col--2 .info .link{
     display: flex;
-    align-items: center;
+    height: auto;
+    align-items: flex-end;
     justify-content: center;
 }
 .slide--11 .col--2 .info .link a{
     border: 2px solid #121212;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--11 .col--2 .info .link a span{
     position: relative;
@@ -2650,16 +2690,19 @@ p {
 }
 .slide--12 .col--2 .info .link{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 .slide--12 .col--2 .info .link a{
     border: 2px solid #73e4f8;
-    display: block;
-    padding: 10px;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
     position: relative;
     transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
 }
 .slide--12 .col--2 .info .link a span{
     position: relative;
@@ -2868,6 +2911,11 @@ p {
         max-width: 40vw;
         margin: 0 0 10vw 10vw;
     }
+}
+
+
+.slide .col--2 .info p strong{
+    font-weight: 700;
 }
 
 .slide-link {
@@ -3083,6 +3131,7 @@ p {
 
 .footer__copyright {
     position: absolute;
+    text-align: center;
     left: 50%;
     bottom: 24px;
     transform: translateX(-50%);
@@ -3099,24 +3148,33 @@ p {
 }
 .footer .info{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: #ffffffb6;
     font-size: 25px;
-    height: 50px;
-    align-items: center;
+    align-items: flex-start;
 }
 .footer .info span:nth-child(2){
-    margin: 0 3vw;
+    margin: 3vw 0;
 }
 .footer .info a{
     color: #353535;
     display: flex;
     align-items: center;
+    padding: 2px 20px;
     justify-content: center;
-    width: 220px;
-    height: 50px;
     border-radius: 20px;
     background-color: #fff;
+    transition: 0.5s;
+}
+.footer .info span{
+    padding: 2px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #353535;
     transition: 0.5s;
 }
 .footer .info a:hover{
