@@ -1574,7 +1574,8 @@ p {
     animation: slide 15s infinite alternate linear;
 }
 .slide--1 .col--2 .photo .img{
-    width: 2000px;
+    width: 3000px;
+    animation: slide 25s infinite alternate linear;
 }
 .slide--1 .col--2 > div .img > div{
     display: block;
