@@ -153,6 +153,9 @@ p {
 .gnb .inner span:nth-child(11){
     color: #73e4f8;
 }
+.gnb .inner span:nth-child(12){
+    color: #1b81c1;
+}
 
 
 /*  ========================================================================== 
@@ -2749,6 +2752,94 @@ p {
     background: #fff;
 }
 
+/* slide 13 */
+
+.slide--13 .col--1{
+    width: 35%;
+    flex-basis: unset;
+}
+
+.slide--13 .col--2{
+    position: static;
+    flex-basis: unset;
+    height: 100%;
+    width: 65%;
+}
+.slide--13 .col--2 > .img{
+    height: 70%;
+
+}
+.slide--13 .col--2 > div img{
+    height: 100%;
+    object-fit: cover;
+}
+.slide--13 .col--2 .info{
+    padding: 3vw 7vw 0 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.slide--13 .col--2 .info .link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.slide--13 .col--2 .info .link a{
+    border: 2px solid #1b81c1;
+    display: flex;
+    width: 150px;
+    padding: 10px 0;
+    position: relative;
+    transition: 0.5s;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slide--13 .col--2 .info .link a span{
+    position: relative;
+    z-index: 5;
+}
+.slide--13 .col--2 .info .link a::after{
+    width: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #73e4f8;
+    transition: 0.5s;
+}
+.slide--13 .col--2 .info .link a:hover{
+    color: #fff;
+}
+.slide--13 .col--2 .info .link a:hover::after{
+    width: 100%;
+}
+.slide--13 .col--2 .info p{
+    margin-bottom: 1rem;
+    font-size: 18px;
+    display: flex;
+}
+.slide--13 .col--2 .info p span{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 3vw;
+    display: block;
+    width: 150px;
+}
+.slide--13 .col--1 .col__content-title{
+    color: #fff;
+}
+.slide--13 .col--1 .col__content-txt{
+    color: #fff;
+}
+.slide--13 .slide-link__circ{
+    border: 1px solid #fff;
+}
+.slide--13 .slide-link__line{
+    background: #fff;
+}
+
 
 
 @keyframes slide {
@@ -2862,12 +2953,10 @@ p {
 .col__content--12 {
     background: #73e4f8;
 }
-
-@media all and (max-width: 768px) {
-    .col__content--6 {
-        background: rgba(215, 206, 197, 0.9);
-    }
+.col__content--13 {
+    background: #1b81c1;
 }
+
 
 /*  Column Content
       ========================================================================== */
@@ -3063,6 +3152,9 @@ p {
     background: #D7CEC5;
 }
 .slide--12 .slide__scroll-line {
+    background: #cdefff;
+}
+.slide--13 .slide__scroll-line {
     background: #cdefff;
 }
 
