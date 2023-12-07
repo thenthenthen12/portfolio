@@ -1574,8 +1574,8 @@ p {
     animation: slide 15s infinite alternate linear;
 }
 .slide--1 .col--2 .photo .img{
-    width: 4000px;
-    animation: slide 25s infinite alternate linear;
+    width: 10000px;
+    animation: slide 50s infinite alternate linear;
 }
 .slide--1 .col--2 > div .img > div{
     display: block;
@@ -1672,11 +1672,11 @@ p {
     height: 50vh;
     margin-bottom: 3vw;
 }
-.slide--1 .col--2 .photo .img > div:nth-child(6).on{
+.slide--1 .col--2 .photo .img > div:nth-child(7).on{
     padding: 5vh 0 0 3vw;
     display: block;
 }
-.slide--1 .col--2 .photo .img > div:nth-child(6).on img{
+.slide--1 .col--2 .photo .img > div:nth-child(7).on img{
     height: 50vh;
     margin-bottom: 3vw;
 }
